@@ -47,7 +47,7 @@ export const projectsData = [
   {
     title: "Minesweeper",
     description:
-      "Developed Minesweeper with a GUI replicating Microsoft Window's version from the 90s, features save and reload function via file I/O operations.",
+      "Developed Minesweeper with a GUI replicating Microsoft Window's version from the 90s, featuring save and reload function via file I/O operations.",
     tags: ["Java", "JUnit", "Java Swing"],
     imageUrl: minesweeperImg,
   },
