@@ -1,5 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import spotifyImg from "@/public/spotify.png";
 import flightImg from "@/public/flight-delay.png";
 import minesweeperImg from "@/public/minesweeper.png";
