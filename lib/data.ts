@@ -1,7 +1,7 @@
 import spotifyImg from "@/public/spotify.png";
 import flightImg from "@/public/flight-delay.png";
 import minesweeperImg from "@/public/minesweeper.png";
-import pandemicImg from "@/public/minesweeper.png";
+import pandemicImg from "@/public/pandemic-simulator.png";
 
 export const links = [
   {
@@ -32,7 +32,7 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Epidemiological Simulator",
+    title: "Pandemic Simulator",
     description:
       "Developed an interactive pandemic simulation tool to analyze infection spreads following SIR epidemiology model, with adjustable parameters like lockdowns and mask mandates. 1st Place in HoyaHacks 2024 Simulation Track",
     tags: ["Python", "HTML", "CSS", "FastAPI"],
