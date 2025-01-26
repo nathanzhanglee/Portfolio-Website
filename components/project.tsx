@@ -57,11 +57,11 @@ export default function Project({
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
         group-hover:translate-y-3
-        group-hover:-rotate-6
+        group-hover:rotate-6
 
         group-even:group-hover:translate-x-3
         group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-6
+        group-even:group-hover:-rotate-6
 
         group-odd:right-[initial] group-odd:-left-40"
         />
