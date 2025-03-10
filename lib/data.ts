@@ -1,7 +1,7 @@
 import spotifyImg from "@/public/spotify.png";
-import flightImg from "@/public/flight-delay.png";
 import minesweeperImg from "@/public/minesweeper.png";
-//test branch commit
+import pandemicImg from "@/public/pandemic-simulator.png";
+
 
 export const links = [
   {
@@ -32,18 +32,18 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Epidemiological Simulator",
+    description:
+      "Developed an interactive pandemic simulation tool to analyze infection spreads following SIR epidemiology model, with adjustable parameters like lockdowns and mask mandates. 1st Place in HoyaHacks 2024 Simulation Track",
+    tags: ["Python", "HTML", "CSS", "FastAPI"],
+    imageUrl: pandemicImg,
+  },
+  {
     title: "Spotify Clone",
     description:
       "Built a full-stack Spotify clone with a responsive UI and real-time data handling. Features include song uploads, playlist creation, and recurring Stripe subscriptions.",
     tags: ["React.js", "Next.js", "Tailwind CSS", "HTML", "SQL"],
     imageUrl: spotifyImg,
-  },
-  {
-    title: "Flight Delay Predictor",
-    description:
-      "Created a machine learning model designed to predict flight delays using a dataset of over 4 million flights, using data cleaning and model training.",
-    tags: ["Python", "Pandas", "Sciki-Learn", "Matplotlib"],
-    imageUrl: flightImg,
   },
   {
     title: "Minesweeper",
@@ -70,9 +70,6 @@ export const skillsData = [
   "Tailwind CSS", 
   "React.js",
   "Node.js",
-  "Pandas",
-  "Numpy",
-  "Scikit-Learn",
   "Git",
   "Flask",
   "AWS Services",

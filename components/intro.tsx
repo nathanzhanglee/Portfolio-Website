@@ -65,8 +65,6 @@ export default function Intro() {
               sequence={[
                 'Software Engineer.',
                 1400,
-                'Content Creator',
-                1400,
                 'Teaching Assistant.',
                 1400,
                 'Curious Student.',
