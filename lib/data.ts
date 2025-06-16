@@ -1,7 +1,8 @@
-import spotifyImg from "@/public/spotify.png";
-import flightImg from "@/public/flight-delay.png";
+import dineImg from "@/public/dine.png";
+import instaImg from "@/public/insta.png";
 import minesweeperImg from "@/public/minesweeper.png";
 import pandemicImg from "@/public/pandemic-simulator.png";
+
 
 export const links = [
   {
@@ -32,25 +33,25 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Pandemic Simulator",
+    title: "InstaLite",
     description:
-      "Developed an interactive pandemic simulation tool to analyze infection spreads following SIR epidemiology model, with adjustable parameters like lockdowns and mask mandates. 1st Place in HoyaHacks 2024 Simulation Track",
+      "A social media platform that allows users to interact with shared posts and engage in real-time chat, with ranking algorithms and natural language search",
+    tags: ["Node.js", "RDS", "S3", "EC2", "ChromaDB", "Apache Spark", "Apache Kafka", "JavaScript", "Axios", "React"],
+    imageUrl: instaImg,
+  },
+  {
+    title: "HereBeforeItGoesViral",
+    description:
+      "An interactive web-based pandemic simulation tool: Best Simulation Hack and 3rd Place Overall at Georgetown HoyaHacks 2025",
     tags: ["Python", "HTML", "CSS", "FastAPI"],
     imageUrl: pandemicImg,
   },
   {
-    title: "Spotify Clone",
+    title: "DineDecide",
     description:
-      "Built a full-stack Spotify clone with a responsive UI and real-time data handling. Features include song uploads, playlist creation, and recurring Stripe subscriptions.",
-    tags: ["React.js", "Next.js", "Tailwind CSS", "HTML", "SQL"],
-    imageUrl: spotifyImg,
-  },
-  {
-    title: "Flight Delay Predictor",
-    description:
-      "Created a machine learning model designed to predict flight delays using a dataset of over 4 million flights, using data cleaning and model training.",
-    tags: ["Python", "Pandas", "Sciki-Learn", "Matplotlib"],
-    imageUrl: flightImg,
+      "An iOS app that helps users discover nearby restaurants based on preferences, using location services and the Google Places API",
+    tags: ["Swift", "SwiftUI", "Core Location"],
+    imageUrl: dineImg,
   },
   {
     title: "Minesweeper",
@@ -65,24 +66,25 @@ export const skillsData = [
   "Java",
   "Python", 
   "JavaScript",
+  "Typescript",
   "OCaml",
   "C",
   "C++",
-  "SQL",
   "HTML",
   "CSS",
+  "Swift",
+  "Assembly",
+  "SQL", 
+  "R",
   "React",
-  "Node.js", 
-  "Express.js", 
-  "FastAPI", 
-  "Git",
-  "VS Code",
-  "IntelliJ",
-  "RESTful APIs",
-  "Docker",
+  "Node.js",
+  "Java Spark",
+  "Kafka", 
   "AWS EC2",
   "AWS S3",
-  "DynamoDB",
+  "AWS DynamoDB", 
   "ChromaDB",
-  "ArduinoIDE"
+  "Git",
+  "Github",
+  "Docker"
 ] as const;
