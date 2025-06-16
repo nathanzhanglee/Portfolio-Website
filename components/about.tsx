@@ -24,7 +24,7 @@ export default function About() {
         I'm deeply passionate about the intersection of software development and entrepreneurship,{" "}
         <span className="font-medium">constantly exploring how innovative technology </span> can drive impactful solutions.
         Currently, I'm advancing my technical and leadership skills {" "}
-        <span className="font-medium">as a Software Engineering Intern at MediVoiceAI</span> while mentoring{" "}
+        <span className="font-medium">as a Software Engineering Intern at Cubic Defense</span> while mentoring{" "}
         <span className="font-medium">students as a Teaching Assistant for CIS 1200: Programming Languages and Techniques II</span>.
       </p>
 
