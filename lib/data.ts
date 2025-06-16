@@ -35,7 +35,7 @@ export const projectsData = [
   {
     title: "InstaLite",
     description:
-      "A social media platform that allows users to interact with shared posts and engage in real-time chat, with ranking algorithms and natural language search",
+      "A social media platform that allows users to interact with shared posts and real-time chat, with ranking algorithms and natural language search",
     tags: ["Node.js", "RDS", "S3", "EC2", "ChromaDB", "Spark", "Kafka", "JavaScript", "Axios", "React"],
     imageUrl: instaImg,
   },
